@@ -1,8 +1,8 @@
 from binance_api import Binance
 
 bot = Binance(
-    API_KEY='7w0HZrpxaorsKdZX8tXfWS4zazQs4yHWRXgYPDqupKutmRMy18qmNCL6Udmw610X',
-    API_SECRET='5nKT5wLhKUXwqe19zD2cKSDUiYdXPwJlC4sYI4e8h5igGev3z2rTsWCmciCXvVwn'
+    API_KEY='****',
+    API_SECRET='****'
 )
 
 get_json = bot.futuresExchangeInfo( )
